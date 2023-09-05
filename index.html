@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            NATURAL MEDICINE AND HERBS
+        </title>
+        <!--<img src="LOG.png" class="LOGO">-->
+        <style>
+            h1{
+                text-align: left;
+                font-family: sans-serif;
+                color: white;
+            }
+            body{
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(herbs.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            .mkia{
+                width: 100%;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                text-align: center;
+                color: white;
+            }
+            .mkia h2{
+                text-decoration: wavy;
+                color: greenyellow;
+                font-size: 70px;
+                margin-top: 500px;
+            }
+            .mkia p{
+                font-weight: bold;
+                color: green;
+                margin: 20px auto;
+                font-weight: 100;
+                line-height: 25px;
+
+            }
+            button{
+                width: 200px;
+                padding: 15px 0;
+                text-align: center;
+                margin: 20px 10px;
+                border-radius: 25px;
+                font-weight: bold;
+                border: 2px solid greenyellow;
+                background: transparent;
+                color: greenyellow;
+                cursor: pointer;
+                position: relative;
+                overflow: hidden;
+            }
+            span{
+                background: black;
+                height: 100%;
+                width: 0;
+                border-radius: 25px;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                z-index: -1;
+                transition: 0.5s;
+            }
+            button:hover span{
+                width: 100%; 
+            }
+            button:hover{
+                border: none;
+            }
+            .LOGO{
+                width: 120px;
+                cursor: pointer;
+            }
+            .LOG{
+                align-content: end;
+                width: 120px;
+                cursor: pointer;
+            }
+            .kichwa{
+                width: 85%;
+                margin: auto;
+                padding: 35px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .kichwa ul li{
+                list-style: none;
+                display: inline-block;
+                margin: 0 20px;
+                position: relative;
+            }
+            .kichwa ul li a{
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+            .kichwa ul li::after{
+                content: '';
+                height: 3px;
+                width: 0;
+                background: black;
+                position: absolute;
+                left: 0;
+                bottom: -10px;
+                transition: 0.5s;
+            }
+            .kichwa ul li:hover::after{
+                width: 100%;
+            }
+            .lugha{
+                width: 200px;
+                padding: 15px 0;
+                text-align: center;
+                margin: 20px 10px;
+                border-radius: 25px;
+                font-weight: bold;
+                border: 2px solid white;
+                background: transparent;
+                color: white;
+                cursor: pointer;
+                position: relative;
+                overflow: hidden;  
+            }
+            .lugha :hover span{
+                width: 100%;
+            }
+            .lugha :hover{
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="kichwa">
+            <img src="MYMY.png" class="LOGO">
+            <img src="MY.png" class="LOG">
+        </div>
+             <div class="mkia">
+                <h2> KUTANA NA<br> DOCTOR HUSSEIN BUNDI </h2>
+                <p>Dr Bundi ni mganga wa tiba asili na magonjwa sugu<br>
+                anatibu na kutatua shida mbalimbali kama vile<br>
+                .MAPENZI<br>
+                .BIASHARA<br>
+                .NGUVU ZA KIUME<br>
+                .NYOTA NA UTAJIRI<br>
+                .NA MAGONJWA MBALIMBALI<br>
+                BILA KUTUMIA KAFARA
+                </p>
+                <a href="Translate.html">
+                    <button type="lugha"><span></span>TRANSLATE</button>
+                </a>
+                <a href="https://wa.me/qr/BGUNR36RGFFUH1">
+                <button type="button"><span></span>UNGANA NAE<br> WHATSAPP</button>
+                </a>
+                <p> AU</p>
+                <a href="mailto:husseinmayunga15@gmail.com">
+                <button type="button"><span></span>BARUA PEPE</button>
+                </a>
+             </div>
+    </body>
+</html>
